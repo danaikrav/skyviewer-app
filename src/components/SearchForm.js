@@ -22,8 +22,8 @@ function SearchForm() {
   return (
     <div className="search-form">
       <form>
-        <label for="origin"> Origin: </label>
-        <select name="origin">
+        <label for="origin"> From: </label>
+        <select className="input-box" name="origin">
           <option value="default">--- Please select ---</option>
           <option value="bronx">Bronx</option>
           <option value="brooklyn">Brooklyn</option>
@@ -31,8 +31,8 @@ function SearchForm() {
           <option value="queens">Queens</option>
           <option value="statenisland">Staten Island</option>
         </select>
-        <label for="destination"> Destination: </label>
-        <select onChange={DestinationChangeHandler} name="destination">
+        <label for="destination"> To: </label>
+        <select className="input-box" onChange={DestinationChangeHandler} name="destination">
           <option value="default">--- Please select ---</option>
           <option value="bronx">Bronx</option>
         </select>
@@ -45,8 +45,12 @@ function SearchForm() {
             type="checkbox"
           ></input>
           <p> </p>
-          <input type="date"></input>
-          <input className="hide" id="arrive-date" type="date"></input>
+          <label>Depart At:</label>
+          <input className="input-box" type="date"></input>
+          <div className="hide" id="arrive-date">
+            <label>Arrive At:</label>
+          <input className="input-box"   type="date"></input>
+          </div>
         </form>
         <p> </p>
         <button className="button" type="submit">
