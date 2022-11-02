@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    color: white;
 }
 
 .user-form__controls {
+  flex-direction: column;
+  align-items: center;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;

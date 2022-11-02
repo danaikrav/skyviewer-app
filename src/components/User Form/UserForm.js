@@ -9,6 +9,13 @@ const UserForm = () => {
             console.log("Free!")
         }
     }
+
+    const boxHandler = (event) => {
+        
+      if (event.target.checked===true){
+          alert("Warning: Additional Cost");
+      }
+  }
   return (
     <form className="container">
       <div className="user-form__controls">
@@ -34,7 +41,7 @@ const UserForm = () => {
         </div>
         <div className="user-form__control">
           <label>Bags?</label>
-          <input type="checkbox"></input>
+          <input type="checkbox" onClick={boxHandler}></input>
         </div>
       </div>
       <div className="user-form__actions">
