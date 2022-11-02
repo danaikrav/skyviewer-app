@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Flights",
+    "\\src\\components\\Search Engine",
+    "\\src\\components\\User Form"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\components\\User Form\\NewUser.js",
   "PreviewInSolutionExplorer": false
 }

@@ -10,7 +10,7 @@ const UserForm = () => {
         }
     }
   return (
-    <form>
+    <form className="container">
       <div className="user-form__controls">
         <div className="user-form__control">
           <label>Name</label>
