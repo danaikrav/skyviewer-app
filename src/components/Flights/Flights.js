@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Flight from "./Flight";
-import Card from "./UI/Card";
+import Card from "../UI/Card";
 //import FlightsFilter from './FlightsFilter';
 import "./Flights.css";
 

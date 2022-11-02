@@ -20,8 +20,8 @@ function SearchForm() {
   };
 
   return (
-    <div className="search-form">
-      <form>
+    <div className="container">
+      <form className="search-form">
         <label for="origin"> From: </label>
         <select className="input-box" name="origin">
           <option value="default">--- Please select ---</option>
@@ -45,8 +45,11 @@ function SearchForm() {
             type="checkbox"
           ></input>
           <p> </p>
+          <div id="depart-date">
           <label>Depart At:</label>
-          <input className="input-box" type="date"></input>
+          <input className="input-box" type="date" min="2022-11-02"></input>
+          </div>
+          
           <div className="hide" id="arrive-date">
             <label>Arrive At:</label>
           <input className="input-box"   type="date"></input>

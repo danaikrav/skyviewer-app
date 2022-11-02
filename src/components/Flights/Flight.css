@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 1rem;
   align-items: flex-end;
-  flex-flow: column-reverse;
+  /*flex-flow: column-reverse;*/
   justify-content: flex-start;
   flex: 1;
 }
@@ -33,4 +33,18 @@
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 12px;
+}
+.flight__button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(24, 122, 208);
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(78, 151, 215);
 }
